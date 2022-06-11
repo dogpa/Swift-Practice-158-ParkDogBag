@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0DBF6728444541007722B9 /* FBBagLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DBF6628444541007722B9 /* FBBagLocationViewModel.swift */; };
+		2D0DBF6A28444702007722B9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0DBF6928444702007722B9 /* FirebaseFirestore */; };
+		2D0DBF6C28444702007722B9 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0DBF6B28444702007722B9 /* FirebaseFirestoreCombine-Community */; };
+		2D0DBF6E28444702007722B9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0DBF6D28444702007722B9 /* FirebaseFirestoreSwift */; };
+		2D0DBF7028444714007722B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D0DBF6F28444714007722B9 /* GoogleService-Info.plist */; };
+		2D0DBF7228444736007722B9 /* FBLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DBF7128444736007722B9 /* FBLocation.swift */; };
+		2D0DBF752844487F007722B9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DBF742844487F007722B9 /* MapView.swift */; };
+		2D0DBF77284485D8007722B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DBF76284485D8007722B9 /* ListView.swift */; };
 		2D3D02D82840906F007EAE80 /* ParkDogBagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D02D72840906F007EAE80 /* ParkDogBagApp.swift */; };
 		2D3D02DA2840906F007EAE80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D02D92840906F007EAE80 /* ContentView.swift */; };
 		2D3D02DC28409070007EAE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D02DB28409070007EAE80 /* Assets.xcassets */; };
 		2D3D02DF28409070007EAE80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3D02DE28409070007EAE80 /* Preview Assets.xcassets */; };
+		2D65FF23284ED2680037F2C9 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 2D65FF22284ED2680037F2C9 /* GoogleMobileAds */; };
+		2D65FF25284F6D910037F2C9 /* CouldSeeAdmobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D65FF24284F6D910037F2C9 /* CouldSeeAdmobView.swift */; };
+		2D65FF27284F6DEC0037F2C9 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D65FF26284F6DEC0037F2C9 /* RewardedAd.swift */; };
+		2D65FF47285176E80037F2C9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D65FF46285176E80037F2C9 /* ImagePicker.swift */; };
+		2DA723A92848D0A7009E5E14 /* LoadingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA723A82848D0A7009E5E14 /* LoadingProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0DBF6628444541007722B9 /* FBBagLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBagLocationViewModel.swift; sourceTree = "<group>"; };
+		2D0DBF6F28444714007722B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D0DBF7128444736007722B9 /* FBLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLocation.swift; sourceTree = "<group>"; };
+		2D0DBF742844487F007722B9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2D0DBF76284485D8007722B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2D3D02D42840906F007EAE80 /* ParkDogBag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkDogBag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3D02D72840906F007EAE80 /* ParkDogBagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDogBagApp.swift; sourceTree = "<group>"; };
 		2D3D02D92840906F007EAE80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D3D02DB28409070007EAE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3D02DE28409070007EAE80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D3D02E8284090BD007EAE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D65FF24284F6D910037F2C9 /* CouldSeeAdmobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouldSeeAdmobView.swift; sourceTree = "<group>"; };
+		2D65FF26284F6DEC0037F2C9 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		2D65FF46285176E80037F2C9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2DA723A82848D0A7009E5E14 /* LoadingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +49,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D65FF23284ED2680037F2C9 /* GoogleMobileAds in Frameworks */,
+				2D0DBF6C28444702007722B9 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				2D0DBF6A28444702007722B9 /* FirebaseFirestore in Frameworks */,
+				2D0DBF6E28444702007722B9 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0DBF6428444523007722B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DBF6628444541007722B9 /* FBBagLocationViewModel.swift */,
+				2D65FF26284F6DEC0037F2C9 /* RewardedAd.swift */,
+				2D65FF46285176E80037F2C9 /* ImagePicker.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D0DBF652844452C007722B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D0DBF7128444736007722B9 /* FBLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D0DBF732844486C007722B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D3D02D92840906F007EAE80 /* ContentView.swift */,
+				2D0DBF742844487F007722B9 /* MapView.swift */,
+				2D0DBF76284485D8007722B9 /* ListView.swift */,
+				2DA723A82848D0A7009E5E14 /* LoadingProgressView.swift */,
+				2D65FF24284F6D910037F2C9 /* CouldSeeAdmobView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2D3D02CB2840906F007EAE80 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				2D3D02D72840906F007EAE80 /* ParkDogBagApp.swift */,
-				2D3D02D92840906F007EAE80 /* ContentView.swift */,
+				2D0DBF732844486C007722B9 /* View */,
+				2D0DBF652844452C007722B9 /* Model */,
+				2D0DBF6428444523007722B9 /* ViewModel */,
 				2D3D02DB28409070007EAE80 /* Assets.xcassets */,
+				2D3D02E8284090BD007EAE80 /* Info.plist */,
+				2D0DBF6F28444714007722B9 /* GoogleService-Info.plist */,
 				2D3D02DD28409070007EAE80 /* Preview Content */,
 			);
 			path = ParkDogBag;
@@ -83,6 +144,12 @@
 			dependencies = (
 			);
 			name = ParkDogBag;
+			packageProductDependencies = (
+				2D0DBF6928444702007722B9 /* FirebaseFirestore */,
+				2D0DBF6B28444702007722B9 /* FirebaseFirestoreCombine-Community */,
+				2D0DBF6D28444702007722B9 /* FirebaseFirestoreSwift */,
+				2D65FF22284ED2680037F2C9 /* GoogleMobileAds */,
+			);
 			productName = ParkDogBag;
 			productReference = 2D3D02D42840906F007EAE80 /* ParkDogBag.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,10 @@
 				Base,
 			);
 			mainGroup = 2D3D02CB2840906F007EAE80;
+			packageReferences = (
+				2D0DBF6828444702007722B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2D65FF21284ED2680037F2C9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 2D3D02D52840906F007EAE80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +198,7 @@
 			files = (
 				2D3D02DF28409070007EAE80 /* Preview Assets.xcassets in Resources */,
 				2D3D02DC28409070007EAE80 /* Assets.xcassets in Resources */,
+				2D0DBF7028444714007722B9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0DBF7228444736007722B9 /* FBLocation.swift in Sources */,
 				2D3D02DA2840906F007EAE80 /* ContentView.swift in Sources */,
+				2D65FF27284F6DEC0037F2C9 /* RewardedAd.swift in Sources */,
+				2D0DBF77284485D8007722B9 /* ListView.swift in Sources */,
+				2D0DBF752844487F007722B9 /* MapView.swift in Sources */,
+				2D65FF25284F6D910037F2C9 /* CouldSeeAdmobView.swift in Sources */,
+				2DA723A92848D0A7009E5E14 /* LoadingProgressView.swift in Sources */,
+				2D65FF47285176E80037F2C9 /* ImagePicker.swift in Sources */,
+				2D0DBF6728444541007722B9 /* FBBagLocationViewModel.swift in Sources */,
 				2D3D02D82840906F007EAE80 /* ParkDogBagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -272,6 +352,8 @@
 				DEVELOPMENT_TEAM = D758S53U98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkDogBag/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否同意取用您的地理位置已判斷狗便袋距離？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +383,8 @@
 				DEVELOPMENT_TEAM = D758S53U98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkDogBag/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否同意取用您的地理位置已判斷狗便袋距離？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +425,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D0DBF6828444702007722B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		2D65FF21284ED2680037F2C9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D0DBF6928444702007722B9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0DBF6828444702007722B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2D0DBF6B28444702007722B9 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0DBF6828444702007722B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		2D0DBF6D28444702007722B9 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0DBF6828444702007722B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		2D65FF22284ED2680037F2C9 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D65FF21284ED2680037F2C9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3D02CC2840906F007EAE80 /* Project object */;
 }
